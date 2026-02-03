@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sri Rama Sweets & Bakery | Best Sweets in Vijayawada | Since 2007</title>
+    <meta name="description" content="Authentic Andhra sweets and premium bakery items at Sri Rama Sweets & Bakery, Vijayawada. Specializing in Mysore Pak, Putharekulu, and fresh cakes in Krishnalanka & Naidupet areas.">
+    <meta name="keywords" content="Sri Rama Sweets Vijayawada, best sweets in Vijayawada, authentic Andhra sweets, Bandar Halwa, Putharekulu, Mysore Pak, bakery in Krishnalanka, cake shop Naidupet, traditional Indian sweets, Andhra pickles online">
+    <meta name="author" content="Sri Rama Sweets & Bakery">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sriramasweets.com/">
+    <meta property="og:title" content="Sri Rama Sweets & Bakery | Traditional Taste of Vijayawada">
+    <meta property="og:description" content="Discover the finest traditional sweets and fresh bakery delights in Vijayawada. Visit our store at Krishnalanka today.">
+    <meta property="og:image" content="https://i.pinimg.com/736x/10/45/e0/1045e0148f8fcf8de802652dc5bdca8b.jpg">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              maroon: {
+                800: '#800000',
+                900: '#5a0000',
+              },
+              gold: {
+                400: '#D4AF37',
+                500: '#C5A028',
+                600: '#B49018',
+              },
+              cream: {
+                50: '#FFFDD0',
+                100: '#FDF5E6',
+              }
+            },
+            fontFamily: {
+              serif: ['Playfair Display', 'serif'],
+              sans: ['Lato', 'sans-serif'],
+              telugu: ['Ramabhadra', 'sans-serif'],
+            },
+            keyframes: {
+              bump: {
+                '0%': { transform: 'scale(1)' },
+                '50%': { transform: 'scale(1.4)' },
+                '100%': { transform: 'scale(1)' },
+              },
+              slideInRight: {
+                '0%': { transform: 'translateX(100%)', opacity: '0' },
+                '100%': { transform: 'translateX(0)', opacity: '1' },
+              },
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              zoomIn: {
+                '0%': { transform: 'scale(0.95)', opacity: '0' },
+                '100%': { transform: 'scale(1)', opacity: '1' },
+              },
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              }
+            },
+            animation: {
+              bump: 'bump 0.2s cubic-bezier(0.4, 0, 0.2, 1)',
+              slideInRight: 'slideInRight 0.3s ease-out forwards',
+              fadeIn: 'fadeIn 0.3s ease-out forwards',
+              zoomIn: 'zoomIn 0.3s ease-out forwards',
+              fadeInUp: 'fadeInUp 0.5s ease-out forwards',
+            }
+          }
+        }
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&family=Ramabhadra&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Lato', sans-serif;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Playfair Display', serif;
+      }
+      .font-telugu {
+        font-family: 'Ramabhadra', sans-serif;
+      }
+      .text-glow {
+        text-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+      }
+      .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.38.0",
+    "@supabase/supabase-js": "https://esm.sh/@supabase/supabase-js@^2.48.1",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-cream-50 text-stone-800 dark:bg-stone-900 dark:text-cream-50 transition-colors duration-300">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
