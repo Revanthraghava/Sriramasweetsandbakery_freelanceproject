@@ -6,5 +6,9 @@ A clean website with attrctive UI is created.
 We faced some issues in backend integration and
 had some creative differences.But with open communication
 and logical reasoning we completed our project
-Here is our website link:
-https://sriramasweetsbakery.netlify.app/
+### Completeing the project
+Finaly we handed over the website to our clients.
+They were satisfied and happy with our out put.
+So much learned and still there is to learn.
+Here is our website link:https://www.sriramasweetsbakery.co.in/
+
